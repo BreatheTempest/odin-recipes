@@ -16,38 +16,15 @@ h3 {
 	font-family: 'Times New Roman', serif;
 	font-weight: 500;
 	background-color: blanchedalmond;
+	padding: 0.3em;
 }
 
 h1 {
-	padding: 0.3em;
 	font-size: 50px;
 }
 
 h3 {
 	font-size: 32px;
-}
-
-li a {
-	text-align: center;
-	color: rgb(62, 105, 62);
-	background-color: antiquewhite;
-	padding: 20px;
-	border-radius: 20px;
-}
-li a:hover {
-	color: antiquewhite;
-	background-color: rgb(62, 105, 62);
-}
-
-ol + a {
-	background-color: rgba(172, 255, 47, 0.291);
-	color: black;
-	font-family: fantasy;
-}
-
-ol,
-ul {
-	font-size: 18px;
 }
 
 img {
@@ -63,9 +40,10 @@ img {
 	display: flex;
 	justify-content: space-around;
 	justify-items: center;
+	flex-wrap: wrap;
 	width: 100vw;
 	position: absolute;
-	bottom: 2em;
+	bottom: 3em;
 }
 .recipes li a {
 	text-decoration: none;
@@ -75,14 +53,53 @@ img {
 	list-style: none;
 }
 
-.trans-cont {
-	margin: 0 2em;
-	padding: 1em;
+li a {
+	text-align: center;
+	color: rgb(62, 105, 62);
+	background-color: antiquewhite;
+	padding: 20px;
 	border-radius: 20px;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.7);
 }
 
-li {
+.recipes li:hover {
+	transform: scale(1.1) translate(-5px, -5px);
+	transition: all 0.2s ease-out;
+}
+
+.recipes a:hover {
+	color: antiquewhite;
+	background-color: rgb(62, 105, 62);
+	transform: scale(1.1) translate(-5px, -5px);
+	box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.8);
+	transition: all 0.2s ease-out;
+}
+
+ol + a {
+	background-color: rgba(172, 255, 47, 0.291);
+	color: black;
+	font-family: fantasy;
+}
+
+ol,
+ul {
+	font-size: 18px;
+}
+
+.trans-cont {
+	margin: 0 auto;
+	padding: 1em;
+	border-radius: 20px;
+	color: blanchedalmond;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 80vw;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.trans-cont li {
 	padding: 10px 0;
+	cursor: pointer;
+}
+
+.trans-cont li:hover {
+	text-decoration: line-through;
 }
