@@ -38,5 +38,5 @@ ul {
 
 img {
 	height: auto;
-	width: auto;
+	max-width: 30vw;
 }
