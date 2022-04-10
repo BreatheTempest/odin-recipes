@@ -92,9 +92,9 @@ img {
 li a {
 	text-align: center;
 	color: rgb(62, 105, 62);
-	background-color: antiquewhite;
+	background-color: rgba(250, 235, 215, 0.95);
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 30px;
 }
 
 .recipes li:hover {
@@ -104,7 +104,7 @@ li a {
 
 .recipes a:hover {
 	color: antiquewhite;
-	background-color: rgb(62, 105, 62);
+	background-color: rgba(62, 105, 62, 0.95);
 	transform: scale(1.1) translate(-5px, -5px);
 	box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.8);
 	transition: all 0.2s ease-out;
@@ -126,7 +126,7 @@ ul {
 	padding: 1em;
 	border-radius: 20px;
 	color: blanchedalmond;
-	background-color: rgba(4, 31, 0, 0.7);
+	background-color: rgba(4, 31, 0, 0.8);
 	max-width: 800px;
 	width: 70vw;
 	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
