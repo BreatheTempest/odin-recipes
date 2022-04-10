@@ -16,6 +16,7 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80);
 	height: 100vh;
 	background-size: cover;
+	background-position: center;
 	overflow: hidden;
 }
 
@@ -23,18 +24,21 @@ body {
 	background-color: darkolivegreen;
 	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5449625.jpg);
 	background-size: cover;
+	background-position: center;
 }
 
 .background-fudge {
 	background-color: darkolivegreen;
 	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7609482.jpg&w=970&h=1290&c=sc&poi=face&q=60);
 	background-size: cover;
+	background-position: center;
 }
 
 .background-baked-oatmeal-patties {
 	background-color: darkolivegreen;
 	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4511114.jpg&w=970&h=970&c=sc&poi=face&q=60);
 	background-size: cover;
+	background-position: center;
 }
 
 h1,
