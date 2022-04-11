@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #8ec5fc;
+	background-color: #e0c3fc;
 	background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 	background-size: cover;
 	margin: 0;
@@ -58,7 +58,7 @@ h3 {
 	padding: 0;
 	margin: 1em;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	justify-items: center;
 	flex-wrap: wrap;
 	width: 100vw;
@@ -75,8 +75,6 @@ h3 {
 	color: transparent;
 	text-align: center;
 	box-sizing: content-box;
-	background-color: darkolivegreen;
-	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5449625.jpg);
 	background-size: cover;
 	background-position: center;
 	width: 300px;
@@ -85,8 +83,23 @@ h3 {
 	padding: 1em;
 	text-decoration: none;
 	border-radius: 25%;
+	border: 5px solid #d9afd9;
 }
 
+#bg-1 {
+	background-color: darkslategray;
+	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4511114.jpg&w=970&h=970&c=sc&poi=face&q=60);
+}
+
+#bg-2 {
+	background-color: darkslategray;
+	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7609482.jpg&w=970&h=1290&c=sc&poi=face&q=60);
+}
+
+#bg-3 {
+	background-color: darkslategray;
+	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5449625.jpg);
+}
 .recipes-list span {
 	border-radius: 3px;
 	font-size: 2em;
@@ -102,7 +115,7 @@ h3 {
 
 .recipes-list a:hover {
 	transform: scale(1.2);
-	color: white;
+	color: black;
 	text-shadow: 2px 2px 5px #e0c3fc;
 	text-decoration: underline;
 	transition: all 0.2s ease-out;
